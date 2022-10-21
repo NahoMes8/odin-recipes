@@ -1,0 +1,35 @@
+body{
+   background-image: url("../images/fata.jpg");
+   background-position:center;
+   background-size: cover;
+
+
+}
+.main{
+  width: min(100%-2rem,600px);
+  margin-inline:auto;
+  height:100%;
+  padding:20px;
+  background:linear-gradient(rgba(77, 105, 138, 0.7)50%, rgba(77, 105, 138, 0.7)50%);
+  font-size:25px;
+  font-family:sans-serif;
+  font-weight:bolder;
+  color:#f0cf81;
+}
+.main h1,h2{
+  text-align: center;
+  font-size: 35px;
+  font-family:Norse;
+  font-weight:bold;
+  text-decoration: underline;
+  color:#820303;
+}
+a{
+  text-decoration:none;
+  color:#08cbfc;
+}
+a:hover{
+
+  font-weight:lighter;
+  transition:0.5s ease;
+}
