@@ -1,0 +1,96 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:Helvetica, sans-serif, Verdana, Tahoma, "Trebuchet MS", "Bitstream Vera Sans";
+}
+body{
+  width: auto;
+  height:auto;
+  background-image:url("images/body.jpg");
+  background-repeat: no-repeat;
+  background-position:left;
+  background-size:cover;
+  font-size:30px;
+  font-weight:bolder;
+}
+.container{
+  width:1400px;
+  height:auto;
+  margin:auto;
+  padding:40px;
+  background:linear-gradient(rgba(100, 50, 100, 0.5)50%, rgba(100, 50, 100, 0.5)50%);
+  border:3px solid #a896a7;
+  border-radius:15px;
+}
+.container img:hover{
+  transform: scale(1.03);
+}
+.container h1{
+  color:#f5ae33;
+  font-family: Norse;
+  font-size:50px;
+  text-align: center;
+  margin-top:15px;
+  margin-bottom:50px;
+  text-decoration:line-through;
+}
+.container h2{
+  font-family: Norse;
+  text-align:center;
+  color:#f5ae33;
+  text-decoration:underline;
+  margin:20px;
+}
+.course{
+  text-align:center;
+  margin:50px;
+  color:#f1b204;
+  text-decoration:underline;  
+}
+.breakfast{
+  width:auto;
+  height:400px;
+  margin:auto;
+  display:flex;
+  justify-content: space-around;
+}
+.item{
+  height:auto;
+  text-align: center;
+  flex:1;
+}
+.item img{
+  width:300px;
+  height:300px;
+  margin-top: 10px;
+  border-top-right-radius:40%;
+  border-top-left-radius:20px;
+  border-bottom-left-radius:40px;
+}
+.item a:link{
+  text-decoration: none;
+  color:#dedcdc;
+}
+.item a:visited{
+  color:#adf0e0;
+}
+.item a:hover{
+  color:#9ef060;
+}
+.main{
+  width:auto;
+  height:500px;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+}
+.second img{
+  width:450px;
+  height:450px;
+  border-radius:35px;
+}
+.third img{
+  width:700px;
+  height:500px;
+  border-radius:30%;
+}

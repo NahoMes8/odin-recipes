@@ -33,3 +33,6 @@ a:hover{
   font-weight:lighter;
   transition:0.5s ease;
 }
+.credit{
+  font-size:15px;
+}
